@@ -5,11 +5,13 @@
       @reset="onReset"
       class="q-gutter-md"
     >
-      <q-input
+    17:02
+คุณส่ง
+<q-input
         filled
         v-model="name"
-        label="Your name *"
-        hint="Name and surname"
+        label="名字姓*"
+        hint="名字和姓氏"
         lazy-rules
         :rules="[ val => val && val.length > 0 || 'Please type something']"
       />
